@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+
+RewriteRule ^index.html$ index.php
+
+</IfModule>
