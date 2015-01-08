@@ -7,7 +7,7 @@
 			}
 
 			function index(){
-				$this->load->view('admin/_layout_main', $this->data);			
+				$this->load->view('admin/dashboard/dashboard', $this->data);			
 			}
 
 			function modal(){

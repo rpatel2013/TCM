@@ -1,5 +1,22 @@
-<script src="<?php echo site_url('assets/lib/jquery/jquery.min.js'); ?>"></script>
+	<!--jQuery 2.1.1 -->
+    <script src="<?php echo site_url('assets/lib/jquery/jquery.min.js'); ?>"></script>
+
+    <!--Bootstrap -->
     <script src="<?php echo site_url('assets/lib/bootstrap/js/bootstrap.min.js'); ?>"></script>
+
+    <!-- MetisMenu -->
+    <script src="<?php echo site_url('assets/lib/metismenu/metisMenu.min.js'); ?>"></script>
+
+    <!-- Screenfull -->
+    <script src="<?php echo site_url('assets/lib/screenfull/screenfull.js'); ?>"></script>
+
+    <!-- Metis core scripts -->
+    <script src="<?php echo site_url('assets/js/core.min.js'); ?>"></script>
+
+    <!-- Metis demo scripts -->
+    <script src="<?php echo site_url('assets/js/app.min.js'); ?>"></script>
+    <script src="<?php echo site_url('assets/js/style-switcher.min.js'); ?>"></script>
+
     <script type="text/javascript">
       (function($) {
         $(document).ready(function() {
