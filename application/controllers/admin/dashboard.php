@@ -7,11 +7,11 @@
 			}
 
 			function index(){
-				$this->load->view('_layout_main', $this->data);			
+				$this->load->view('admin/_layout_main', $this->data);			
 			}
 
 			function modal(){
-				$this->load->view('_layout_modal');			
+				$this->load->view('admin/_layout_modal', $this->data);			
 			}
 
 		}
