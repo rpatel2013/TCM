@@ -5,7 +5,7 @@ class MY_Model extends CI_Model {
 	protected $_primary_key = 'id';	
 	protected $_primary_filter = 'interval';	
 	protected $_order_by = '';	
-	protected $_rules = array();
+	public $rules = array();
 	protected $_timestamps = FALSE;	
 
 
