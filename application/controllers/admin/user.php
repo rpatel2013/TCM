@@ -35,6 +35,7 @@
 
               if($this->form_validation->run() == TRUE){
               	//Login
+                  $this->user_m->login();
               }
 
 				$this->load->view('admin/user/login', $this->data);

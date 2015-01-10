@@ -31,4 +31,7 @@
 
 
     </div>
+
+<?php echo '<pre>' . print_r($this->session->userdata, TRUE). '<pre>'; ?>
+
     <?php $this->load->view('admin/components/page_tail'); ?>
