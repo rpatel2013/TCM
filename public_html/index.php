@@ -26,7 +26,9 @@ switch (dirname(__FILE__)) {
 	case 'D:\RickyPatel\wamp\www\CI_CMS\public_html':
 		define('ENVIRONMENT', 'development');
 		break;
-	
+    case 'C:\wamp\www\TCM\public_html':
+        define('ENVIRONMENT', 'development');
+        break;
 	default:
 		define('ENVIRONMENT', 'production');
 		break;
