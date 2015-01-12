@@ -33,16 +33,17 @@ class User_m extends MY_Model {
                 'name' => $user->Name,
                 'email' => $user->email,
                 'id' => $user->id,
-                'logggedin' => TRUE,
+                'loggedin' => TRUE,
             );
             $this->session->set_userdata($data);
 
         }
+        return $this->user_m->loggedin();
     }
     public function logout(){
         $this->session->sess_destroy();
     }
-    public function logggedin(){
+    public function loggedin(){
         return (bool) $this->session->userdata('loggedin');
     }
     public function hash($string){

@@ -32,7 +32,6 @@
         <![endif]-->
 
    
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/style-switcher.css'); ?>">
     <link rel="stylesheet/less" type="text/css" href="<?php echo base_url('assets/css/less/theme.less'); ?>">
     <script src="<?php echo base_url('assets/lib/less/less-1.7.5.min.js'); ?>"></script>
 
